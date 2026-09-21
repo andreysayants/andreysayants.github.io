@@ -57,7 +57,7 @@ th { background: #f1f5f9; font-weight: 600; }
 tr:last-child td { border-bottom: none; }
 .pricing-note { color: var(--muted); margin-bottom: 16px; }
 .contacts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-.contacts-grid a { color: var(--primary); text-decoration: none; }
+.contacts-grid a:not(.btn) { color: var(--primary); text-decoration: none; }
 .contacts-grid a:hover { text-decoration: underline; }
 .footer { padding: 24px 0; text-align: center; color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--border); }
 @media (max-width: 768px) {
